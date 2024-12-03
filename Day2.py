@@ -2,6 +2,7 @@ raw_data = list(open("Inputs/Day2.txt"))
 data = []
 for string in raw_data:
     data.append(list(map(int, string.split())))
+    
 #Part1
 def check_safe(row):
     is_safe = []
