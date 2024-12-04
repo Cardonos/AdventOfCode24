@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b70d5743-9613-4bec-8f54-65ff5439147f" name="Changes" comment="regex fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +50,7 @@
     "Python.Day2.executor": "Run",
     "Python.Day2.txt.executor": "Run",
     "Python.Day3.executor": "Run",
-    "Python.Day4.executor": "Debug",
+    "Python.Day4.executor": "Run",
     "Python.aaa.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -114,7 +113,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733331822008</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="regex fix">
+      <option name="closed" value="true" />
+      <created>1733334061652</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733334061652</updated>
+    </task>
+    <task id="LOCAL-00007" summary="regex fix">
+      <option name="closed" value="true" />
+      <created>1733334072582</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733334072582</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -122,16 +137,5 @@
     <MESSAGE value="Day 4" />
     <MESSAGE value="regex fix" />
     <option name="LAST_COMMIT_MESSAGE" value="regex fix" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Day4.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
