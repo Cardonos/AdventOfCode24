@@ -13,23 +13,23 @@ for i in data:
 xmas_array = np.array(letter_list)
 
 
-def shear_list(list):
+def shear_list(letters_list):
     new_list = []
     count = 0
-    padding = len(list)
-    for i in list:
-        new_line = i.copy()
+    padding = len(letters_list)
+    for i in letters_list:
+        padded_line = i.copy()
         k = 0
         while k < count:
-            new_line.insert(0, " ")
+            padded_line.insert(0, " ")
             k += 1
         l = 0
         while l < padding:
-            new_line.append(" ")
+            padded_line.append(" ")
             l += 1
         count += 1
         padding -= 1
-        new_list.append(new_line)
+        new_list.append(padded_line)
     return new_list
 
 
