@@ -1,7 +1,7 @@
 import numpy as np
 import regex as re
 
-data = list(open("Inputs/Day4.txt"))
+data = list(open("Inputs/test.txt"))
 
 #Part1
 letter_list = []
@@ -70,6 +70,6 @@ for x_row in range(1,len(xmas_array)-1):
             if sorted([xmas_array[x_row-1][y_col-1], xmas_array[x_row+1][y_col+1]]) == ["M","S"] and sorted([xmas_array[x_row-1][y_col+1],xmas_array[x_row+1][y_col-1]]) == ["M","S"]:
                 c += 1
         y_col += 1
-    x_row+=1
+    x_row += 1
 
-print( c)
+print(c)
