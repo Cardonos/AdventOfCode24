@@ -1,4 +1,3 @@
-import math
 data = open("Inputs/Day5.txt").readlines()
 
 #Part1
@@ -26,7 +25,7 @@ for i in printlist:
         except:
             continue
     if in_order:
-        middle_number_sum += int(page_order[math.floor(len(page_order)/2)])
+        middle_number_sum += int(page_order[int(len(page_order)/2)])
     else:
         incorrect_list.append(page_order)
 print(middle_number_sum)
@@ -56,6 +55,7 @@ for k in incorrect_list:
             except:
                 continue
         if correct_sort:
-            ordered_middle_sum += int(sorted_row[math.floor(len(sorted_row) / 2)])
+            ordered_middle_sum += int(sorted_row[int(len(sorted_row) / 2)])
 
 print(ordered_middle_sum)
+
