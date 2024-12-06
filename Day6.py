@@ -1,5 +1,5 @@
 import numpy as np
-
+import time
 data = open("Inputs/Day6.txt").readlines()
 
 #Part1
@@ -51,7 +51,7 @@ result1 = np.count_nonzero(guard_track == "X")
 #Part2
 blocked_paths_xy = []
 for i in range(steps-1):
-    print(f"Step {i+1} of {steps-1}")
+    #print(f"Step {i+1} of {steps-1}")
     y,x = np.where(lab_map == "^")
     rotation_index = 0
     blocked_map = lab_map.copy()

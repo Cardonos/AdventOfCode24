@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b70d5743-9613-4bec-8f54-65ff5439147f" name="Changes" comment="Day 6 - horribly optimized, slightly better" />
+    <list default="true" id="b70d5743-9613-4bec-8f54-65ff5439147f" name="Changes" comment="Day 6 - horribly optimized, slightly better">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day6.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +52,7 @@
     "Python.Day3.executor": "Run",
     "Python.Day4.executor": "Run",
     "Python.Day5.executor": "Run",
-    "Python.Day6.executor": "Debug",
+    "Python.Day6.executor": "Run",
     "Python.aaa.executor": "Run",
     "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -167,7 +170,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733484240761</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Day 6 - horribly optimized, slightly better">
+      <option name="closed" value="true" />
+      <created>1733484576118</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733484576118</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Day 6 - horribly optimized, slightly better">
+      <option name="closed" value="true" />
+      <created>1733484583206</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733484583206</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
