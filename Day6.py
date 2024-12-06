@@ -1,5 +1,4 @@
 import numpy as np
-from sympy.codegen.ast import continue_
 
 data = open("Inputs/test.txt").readlines()
 
