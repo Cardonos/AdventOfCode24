@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b70d5743-9613-4bec-8f54-65ff5439147f" name="Changes" comment="Day 5">
+    <list default="true" id="b70d5743-9613-4bec-8f54-65ff5439147f" name="Changes" comment="Day 5 - removed math import">
+      <change afterPath="$PROJECT_DIR$/Day6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,20 +44,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Day1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Day2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Day2.txt.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Day3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Day4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Day5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.aaa.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Day1.executor": "Run",
+    "Python.Day2.executor": "Run",
+    "Python.Day2.txt.executor": "Run",
+    "Python.Day3.executor": "Run",
+    "Python.Day4.executor": "Run",
+    "Python.Day5.executor": "Run",
+    "Python.Day6.executor": "Run",
+    "Python.aaa.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lases\Desktop\Python Stuff\Pycharm Docs\AdventOfCode24" />
@@ -143,13 +145,30 @@
       <option name="project" value="LOCAL" />
       <updated>1733388014973</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Day 5 - removed math import">
+      <option name="closed" value="true" />
+      <created>1733406593701</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733406593701</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 2" />
     <MESSAGE value="Day 4" />
     <MESSAGE value="Day 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 5" />
+    <MESSAGE value="Day 5 - removed math import" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 5 - removed math import" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="blocked_map" />
+        <watch expression="blocked_map" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
