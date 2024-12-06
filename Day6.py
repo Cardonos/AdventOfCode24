@@ -1,7 +1,7 @@
 import numpy as np
 from sympy.codegen.ast import continue_
 
-data = open("Inputs/Day6.txt").readlines()
+data = open("Inputs/test.txt").readlines()
 
 #Part1
 map_list = []
@@ -51,9 +51,8 @@ result1 = np.count_nonzero(guard_track == "X")
 
 #Part2
 blocked_paths_xy = []
-print(steps)
 for i in range(steps-1):
-    print(i)
+    print(f"Step {i+1} of {steps-1}")
     y,x = np.where(lab_map == "^")
     rotation_index = 0
     blocked_map = lab_map.copy()
@@ -77,19 +76,16 @@ for i in range(steps-1):
         ybloc=1
         xbloc=0
 
-    blocked_map[check_y+ybloc,check_x+xbloc] = "#"
+    new_bloc = (check_y+ybloc,check_x+xbloc)
+    blocked_map[new_bloc] = "#"
     count = 0
 
-    while -1 < y < len(lab_map) and -1 < x < len(lab_map.transpose()):
+    while -1 < check_y < len(lab_map) and -1 < check_x < len(lab_map.transpose()):
         if count == 10000:
-            blocked_paths_xy.append([int(check_y+ybloc), int(check_x+xbloc)])
+            if new_bloc not in blocked_paths_xy:
+                blocked_paths_xy.append(new_bloc)
             break
-        blocked_map,y,x,rotation_index = move(blocked_map,y,x,rotation_index)
+        blocked_map,check_y,check_x,block_rot_index = move(blocked_map,check_y,check_x,block_rot_index)
         count += 1
 
-blocked_path_number = 0
-unique_blocks = []
-for block in blocked_paths_xy:
-    if block not in unique_blocks:
-        unique_blocks.append(block)
-print(len(unique_blocks))
+print(len(blocked_paths_xy))
