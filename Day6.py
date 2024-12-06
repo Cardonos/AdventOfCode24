@@ -1,6 +1,6 @@
 import numpy as np
 
-data = open("Inputs/test.txt").readlines()
+data = open("Inputs/Day6.txt").readlines()
 
 #Part1
 map_list = []
