@@ -11,6 +11,8 @@ def all_possible_ops(problem_list,operations):
             result = i[1]
             while l < len(i) - 2:
                 result = eval(f"{result}{operations_list[k][l]}{i[l + 2]}")
+                if result > int(i[0][0:-1]):
+                    break
                 l += 1
             if result == int(i[0][0:-1]):
                 cal_res += result

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b70d5743-9613-4bec-8f54-65ff5439147f" name="Changes" comment="Day 6 - horribly optimized, slightly better">
-      <change afterPath="$PROJECT_DIR$/Day7.py" afterDir="false" />
+    <list default="true" id="b70d5743-9613-4bec-8f54-65ff5439147f" name="Changes" comment="Day 7 - It Just Works!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day7.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733488902617</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Day 7 - It Just Works!">
+      <option name="closed" value="true" />
+      <created>1733564284357</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1733564284357</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -206,7 +214,8 @@
     <MESSAGE value="Day 5 - removed math import" />
     <MESSAGE value="Day 6 - horribly optimized" />
     <MESSAGE value="Day 6 - horribly optimized, slightly better" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 6 - horribly optimized, slightly better" />
+    <MESSAGE value="Day 7 - It Just Works!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 7 - It Just Works!" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
