@@ -48,13 +48,12 @@ for line in data:
         else:
             freq.append(symbol)
     freq_list.append((new_line))
-print(freq, double_freq)
 freq_map = np.array(freq_list)
 antinode_map = np.full(np.shape(freq_map),".")
 for i in double_freq:
     if not i == ".":
         antinode_map = antinode_generator(freq_map, antinode_map, i)
-print(np.count_nonzero(antinode_map == "#"))
+print(f"Part 1 Result: {np.count_nonzero(antinode_map == '#')}")
 
 #Part2
 freq_map = np.array(freq_list)
@@ -66,5 +65,4 @@ for y in range(len(antinode_map)):
     for x in range(len(antinode_map)):
         if antinode_map[y,x] == "" and freq_map[x,y] in double_freq:
             antinode_map[y,x] = freq_map[y,x]
-print(antinode_map)
-print(np.shape(antinode_map)[0]*np.shape(antinode_map)[1] - np.count_nonzero(antinode_map == "."))
+print(f"Part 2 Result: {np.shape(antinode_map)[0]*np.shape(antinode_map)[1] - np.count_nonzero(antinode_map == '.')}")
