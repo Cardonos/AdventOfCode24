@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b70d5743-9613-4bec-8f54-65ff5439147f" name="Changes" comment="Day 7 - It Just Works!">
+      <change afterPath="$PROJECT_DIR$/Day8.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day7.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,7 @@
     "Python.Day5.executor": "Run",
     "Python.Day6.executor": "Run",
     "Python.Day7.executor": "Run",
+    "Python.Day8.executor": "Run",
     "Python.aaa.executor": "Run",
     "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -204,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733564284357</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Day 7 - It Just Works!">
+      <option name="closed" value="true" />
+      <created>1733565729058</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1733565729058</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
