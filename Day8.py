@@ -50,17 +50,15 @@ for line in data:
     freq_list.append((new_line))
 freq_map = np.array(freq_list)
 antinode_map = np.full(np.shape(freq_map),".")
-for i in double_freq:
-    if not i == ".":
-        antinode_map = antinode_generator(freq_map, antinode_map, i)
+for i in double_freq[1:]:
+    antinode_map = antinode_generator(freq_map, antinode_map, i)
 print(f"Part 1 Result: {np.count_nonzero(antinode_map == '#')}")
 
 #Part2
 freq_map = np.array(freq_list)
 antinode_map = np.full(np.shape(freq_map),"")
-for i in double_freq:
-    if not i == ".":
-        antinode_map = antinode_generator(freq_map, antinode_map, i, part=2)
+for i in double_freq[1:]:
+    antinode_map = antinode_generator(freq_map, antinode_map, i, part=2)
 for y in range(len(antinode_map)):
     for x in range(len(antinode_map)):
         if antinode_map[y,x] == "" and freq_map[x,y] in double_freq:
