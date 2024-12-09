@@ -75,7 +75,6 @@ while k < len(chunked_disk):
                     chunked_disk.insert(len(chunked_disk)-1-k,chunked_disk.pop(l+1))
                 else:
                     for _ in range(len(data_index)):
-                        #chunked_disk[l+1].pop()
                         if chunked_disk[len(chunked_disk) - 1 - k][0] == '.':
                             chunked_disk[len(chunked_disk) - 1 - k].append(chunked_disk[l+1].pop())
                         else:
