@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b70d5743-9613-4bec-8f54-65ff5439147f" name="Changes" comment="Day 7 - It Just Works!">
-      <change afterPath="$PROJECT_DIR$/Day8.py" afterDir="false" />
+    <list default="true" id="b70d5743-9613-4bec-8f54-65ff5439147f" name="Changes" comment="Day 8 - cleaned output">
+      <change afterPath="$PROJECT_DIR$/Day9.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +55,8 @@
     "Python.Day6.executor": "Run",
     "Python.Day7.executor": "Run",
     "Python.Day8.executor": "Run",
-    "Python.aaa.executor": "Run",
+    "Python.Day9.executor": "Run",
+    "Python.aaa.executor": "Debug",
     "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -213,7 +214,31 @@
       <option name="project" value="LOCAL" />
       <updated>1733565729058</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Day 8">
+      <option name="closed" value="true" />
+      <created>1733677342771</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1733677342771</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Day 8 - cleaned output">
+      <option name="closed" value="true" />
+      <created>1733677439386</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1733677439386</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Day 8 - cleaned output">
+      <option name="closed" value="true" />
+      <created>1733677492629</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1733677492629</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -224,9 +249,20 @@
     <MESSAGE value="Day 6 - horribly optimized" />
     <MESSAGE value="Day 6 - horribly optimized, slightly better" />
     <MESSAGE value="Day 7 - It Just Works!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 7 - It Just Works!" />
+    <MESSAGE value="Day 8" />
+    <MESSAGE value="Day 8 - cleaned output" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 8 - cleaned output" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Day9.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="blocked_map" />
