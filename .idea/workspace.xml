@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b70d5743-9613-4bec-8f54-65ff5439147f" name="Changes" comment="Day 8 - cleaned output">
-      <change afterPath="$PROJECT_DIR$/Day9.py" afterDir="false" />
+    <list default="true" id="b70d5743-9613-4bec-8f54-65ff5439147f" name="Changes" comment="Day 4">
+      <change afterPath="$PROJECT_DIR$/Day10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Day1.executor": "Run",
+    "Python.Day10.executor": "Run",
     "Python.Day2.executor": "Run",
     "Python.Day2.txt.executor": "Run",
     "Python.Day3.executor": "Run",
@@ -238,12 +240,19 @@
       <option name="project" value="LOCAL" />
       <updated>1733677492629</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Day 4">
+      <option name="closed" value="true" />
+      <created>1733820224038</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1733820224038</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 2" />
-    <MESSAGE value="Day 4" />
     <MESSAGE value="Day 5" />
     <MESSAGE value="Day 5 - removed math import" />
     <MESSAGE value="Day 6 - horribly optimized" />
@@ -251,7 +260,8 @@
     <MESSAGE value="Day 7 - It Just Works!" />
     <MESSAGE value="Day 8" />
     <MESSAGE value="Day 8 - cleaned output" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 8 - cleaned output" />
+    <MESSAGE value="Day 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -260,6 +270,11 @@
           <url>file://$PROJECT_DIR$/Day9.py</url>
           <line>73</line>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Day10.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
