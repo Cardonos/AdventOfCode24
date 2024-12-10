@@ -17,15 +17,15 @@ def shear_list(letters_list):
     new_list = []
     count = 0
     padding = len(letters_list)
-    for i in letters_list:
-        padded_line = i.copy()
+    for unpad_line in letters_list:
+        padded_line = unpad_line.copy()
         k = 0
         while k < count:
-            padded_line.insert(0, " ")
+            padded_line.insert(0, "")
             k += 1
         l = 0
         while l < padding:
-            padded_line.append(" ")
+            padded_line.append("")
             l += 1
         count += 1
         padding -= 1
@@ -39,8 +39,8 @@ right_sheared_array = np.array(shear_list(xmas_array.transpose().tolist()))
 
 def check_rows(array):
     count = 0
-    for i in array:
-        string = "".join(i)
+    for row in array:
+        string = "".join(row)
         match = re.findall(r'XMAS|SAMX', string, overlapped=True)
         count += len(match)
     return count
