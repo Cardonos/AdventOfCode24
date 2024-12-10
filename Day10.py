@@ -1,6 +1,6 @@
 import numpy as np
 
-data = list(map(lambda x: x.strip(), open("Inputs/Day10.txt").readlines()))
+data = list(open("Inputs/Day10.txt").read().strip().split("\n"))
 
 topo_map_list = []
 for line in data:
