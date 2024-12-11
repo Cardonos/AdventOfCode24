@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b70d5743-9613-4bec-8f54-65ff5439147f" name="Changes" comment="Day 10" />
+    <list default="true" id="b70d5743-9613-4bec-8f54-65ff5439147f" name="Changes" comment="Day 10">
+      <change afterPath="$PROJECT_DIR$/Day11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AdventOfCode24.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AdventOfCode24.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +50,7 @@
   "keyToString": {
     "Python.Day1.executor": "Run",
     "Python.Day10.executor": "Run",
+    "Python.Day11.executor": "Run",
     "Python.Day2.executor": "Run",
     "Python.Day2.txt.executor": "Run",
     "Python.Day3.executor": "Run",
@@ -54,7 +60,7 @@
     "Python.Day7.executor": "Run",
     "Python.Day8.executor": "Run",
     "Python.Day9.executor": "Run",
-    "Python.aaa.executor": "Debug",
+    "Python.aaa.executor": "Run",
     "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
