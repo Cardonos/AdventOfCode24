@@ -1,6 +1,6 @@
 from helperfuncs import parse_to_2D_map
 
-fence_map = parse_to_2D_map("Inputs/test.txt")
+fence_map = parse_to_2D_map("Inputs/Day12.txt")
 print(fence_map)
 
 dir_dict = [(-1,0), (0, 1), (1, 0), (0, -1)]
