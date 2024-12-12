@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b70d5743-9613-4bec-8f54-65ff5439147f" name="Changes" comment="Day 10">
-      <change afterPath="$PROJECT_DIR$/Day11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AdventOfCode24.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AdventOfCode24.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b70d5743-9613-4bec-8f54-65ff5439147f" name="Changes" comment="Day 11 - optimized, dictionary bulk process">
+      <change afterPath="$PROJECT_DIR$/Day12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helperfuncs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_12_2024_16_07_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_12_2024_16_07__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +52,7 @@
     "Python.Day1.executor": "Run",
     "Python.Day10.executor": "Run",
     "Python.Day11.executor": "Run",
+    "Python.Day12.executor": "Run",
     "Python.Day2.executor": "Run",
     "Python.Day2.txt.executor": "Run",
     "Python.Day3.executor": "Run",
@@ -258,7 +260,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733824484595</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Day 11 - optimized, dictionary bulk process">
+      <option name="closed" value="true" />
+      <created>1733911999578</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1733911999578</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Day 11 - optimized, dictionary bulk process">
+      <option name="closed" value="true" />
+      <created>1733916874473</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1733916874473</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -272,7 +290,8 @@
     <MESSAGE value="Day 8 - cleaned output" />
     <MESSAGE value="Day 4" />
     <MESSAGE value="Day 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 10" />
+    <MESSAGE value="Day 11 - optimized, dictionary bulk process" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 11 - optimized, dictionary bulk process" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
