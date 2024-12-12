@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b70d5743-9613-4bec-8f54-65ff5439147f" name="Changes" comment="Day 11 - optimized, dictionary bulk process">
-      <change afterPath="$PROJECT_DIR$/Day12.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helperfuncs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_12_2024_16_07_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_12_2024_16_07__Changes_.xml" beforeDir="false" />
+    <list default="true" id="b70d5743-9613-4bec-8f54-65ff5439147f" name="Changes" comment="Day 12 part 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day12.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day12.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733916874473</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Day 12 part 1">
+      <option name="closed" value="true" />
+      <created>1733997887404</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1733997887404</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -291,7 +296,8 @@
     <MESSAGE value="Day 4" />
     <MESSAGE value="Day 10" />
     <MESSAGE value="Day 11 - optimized, dictionary bulk process" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 11 - optimized, dictionary bulk process" />
+    <MESSAGE value="Day 12 part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 12 part 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
