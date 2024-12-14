@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b70d5743-9613-4bec-8f54-65ff5439147f" name="Changes" comment="Day 12 part 2 - doesnt work with actual data but passes all test cases">
-      <change afterPath="$PROJECT_DIR$/Day13.py" afterDir="false" />
+    <list default="true" id="b70d5743-9613-4bec-8f54-65ff5439147f" name="Changes" comment="Day 13 - linear equation solved">
+      <change afterPath="$PROJECT_DIR$/Day14.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +50,8 @@
     "Python.Day10.executor": "Run",
     "Python.Day11.executor": "Run",
     "Python.Day12.executor": "Run",
-    "Python.Day13.executor": "Debug",
+    "Python.Day13.executor": "Run",
+    "Python.Day14.executor": "Debug",
     "Python.Day2.executor": "Run",
     "Python.Day2.txt.executor": "Run",
     "Python.Day3.executor": "Run",
@@ -298,7 +299,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734013543132</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Day 13 - linear equation solved">
+      <option name="closed" value="true" />
+      <created>1734090165084</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1734090165084</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Day 13 - linear equation solved">
+      <option name="closed" value="true" />
+      <created>1734090382454</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1734090382454</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -316,7 +333,8 @@
     <MESSAGE value="Day 12 part 1" />
     <MESSAGE value="Day 12 part 2 - doesnt work" />
     <MESSAGE value="Day 12 part 2 - doesnt work with actual data but passes all test cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 12 part 2 - doesnt work with actual data but passes all test cases" />
+    <MESSAGE value="Day 13 - linear equation solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 13 - linear equation solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -327,9 +345,9 @@
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Day13.py</url>
-          <line>35</line>
-          <option name="timeStamp" value="38" />
+          <url>file://$PROJECT_DIR$/Day14.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -337,6 +355,7 @@
       <configuration name="PythonConfigurationType">
         <watch expression="blocked_map" />
         <watch expression="blocked_map" language="Python" />
+        <watch expression="robots" />
       </configuration>
     </watches-manager>
   </component>
