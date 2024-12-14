@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b70d5743-9613-4bec-8f54-65ff5439147f" name="Changes" comment="Day 13 - linear equation solved">
-      <change afterPath="$PROJECT_DIR$/Day14.py" afterDir="false" />
+    <list default="true" id="b70d5743-9613-4bec-8f54-65ff5439147f" name="Changes" comment="Day 14 - empirical solution for part 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day14.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day14.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
     "Python.Day11.executor": "Run",
     "Python.Day12.executor": "Run",
     "Python.Day13.executor": "Run",
-    "Python.Day14.executor": "Debug",
+    "Python.Day14.executor": "Run",
     "Python.Day2.executor": "Run",
     "Python.Day2.txt.executor": "Run",
     "Python.Day3.executor": "Run",
@@ -315,7 +315,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734090382454</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Day 14 - empirical solution for part 2">
+      <option name="closed" value="true" />
+      <created>1734175967068</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1734175967068</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -334,7 +342,8 @@
     <MESSAGE value="Day 12 part 2 - doesnt work" />
     <MESSAGE value="Day 12 part 2 - doesnt work with actual data but passes all test cases" />
     <MESSAGE value="Day 13 - linear equation solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 13 - linear equation solved" />
+    <MESSAGE value="Day 14 - empirical solution for part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 14 - empirical solution for part 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -343,11 +352,6 @@
           <url>file://$PROJECT_DIR$/Day9.py</url>
           <line>73</line>
           <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Day14.py</url>
-          <line>89</line>
-          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
