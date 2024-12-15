@@ -99,7 +99,9 @@ def move_wide_box(warehouse_map, direction, location, side):
                     moved = True
     else:
         if side == "[":
-            if warehouse_map[y+y_move,x] == "." and warehouse_map[y+y_move, x+1] == ".":
+            if warehouse_map[y + y_move,x] == "#" or warehouse_map[y + y_move,x + 1] == "#":
+                return False, warehouse_map
+            elif warehouse_map[y+y_move,x] == "." and warehouse_map[y+y_move, x+1] == ".":
                 warehouse_map[y+y_move,x] = "["
                 warehouse_map[y+y_move,x+1] = "]"
                 warehouse_map[y,x] = "."
@@ -133,17 +135,20 @@ def move_wide_box(warehouse_map, direction, location, side):
                     moved = True
             #case 3: double box on box
             elif warehouse_map[y + y_move,x] == "]" and warehouse_map[y + y_move,x + 1] == "[":
-                moved1, warehouse_map1 = move_wide_box(warehouse_map.copy(),direction,[y + y_move,x],"]")
-                moved2, warehouse_map2 = move_wide_box(warehouse_map1.copy(),direction,[y + y_move,x+1],"[")
-                if all([moved1,moved2]):
-                    warehouse_map = warehouse_map2
+                moved, warehouse_map1 = move_wide_box(warehouse_map.copy(),direction,[y + y_move,x],"]")
+                if moved:
+                    moved, warehouse_map2 = move_wide_box(warehouse_map1.copy(),direction,[y + y_move,x+1],"[")
+                if moved:
+                    warehouse_map = warehouse_map2.copy()
                     warehouse_map[y + y_move,x] = "["
                     warehouse_map[y + y_move,x + 1] = "]"
                     warehouse_map[y,x] = "."
                     warehouse_map[y,x + 1] = "."
                     moved = True
         elif side == "]":
-            if warehouse_map[y+y_move,x] == "." and warehouse_map[y+y_move, x-1] == ".":
+            if warehouse_map[y + y_move,x] == "#" or warehouse_map[y + y_move,x - 1] == "#":
+                return False, warehouse_map
+            elif warehouse_map[y+y_move,x] == "." and warehouse_map[y+y_move, x-1] == ".":
                 warehouse_map[y+y_move,x-1] = "["
                 warehouse_map[y+y_move,x] = "]"
                 warehouse_map[y,x-1] = "."
@@ -177,10 +182,11 @@ def move_wide_box(warehouse_map, direction, location, side):
                     moved = True
             # case 3: double box on box
             elif warehouse_map[y + y_move,x] == "[" and warehouse_map[y + y_move,x - 1] == "]":
-                moved1,warehouse_map1 = move_wide_box(warehouse_map.copy(),direction,[y + y_move,x],"[")
-                moved2,warehouse_map2 = move_wide_box(warehouse_map1.copy(),direction,[y + y_move,x-1],"]")
-                if all([moved1,moved2]):
-                    warehouse_map = warehouse_map2
+                moved, warehouse_map1 = move_wide_box(warehouse_map.copy(),direction,[y + y_move,x],"[")
+                if moved:
+                    moved,warehouse_map2 = move_wide_box(warehouse_map1.copy(),direction,[y + y_move,x-1],"]")
+                if moved:
+                    warehouse_map = warehouse_map2.copy()
                     warehouse_map[y + y_move,x-1] = "["
                     warehouse_map[y + y_move,x] = "]"
                     warehouse_map[y,x-1] = "."
@@ -188,21 +194,23 @@ def move_wide_box(warehouse_map, direction, location, side):
                     moved = True
     return moved, warehouse_map
 
-def wide_move(warehouse_map ,direction, current_loc, robot_or_box="@"):
+def wide_move(warehouse_map ,direction, current_loc):
     y_move, x_move = dir_dict[direction]
     y, x = current_loc
     moved = False
     new_loc = warehouse_map[y + y_move,x + x_move]
     if new_loc == "#":
-        return moved, warehouse_map
+        return False, warehouse_map
     elif new_loc == "[" or new_loc == "]":
-        moved, warehouse_map = move_wide_box(warehouse_map.copy(), direction, [y+y_move, x+x_move], warehouse_map[y+y_move,x+x_move])
+        moved, warehouse_map1 = move_wide_box(warehouse_map.copy(), direction, [y+y_move, x+x_move], warehouse_map[y+y_move,x+x_move])
         if moved:
-            warehouse_map[y+y_move, x+x_move] = robot_or_box
+            warehouse_map = warehouse_map1.copy()
+            warehouse_map[y+y_move, x+x_move] = "@"
             warehouse_map[y,x] = "."
+            moved = True
     else:
         moved = True
-        warehouse_map[y + y_move,x + x_move] = robot_or_box
+        warehouse_map[y + y_move,x + x_move] = "@"
         warehouse_map[y,x] = "."
     return moved, warehouse_map
 
@@ -242,6 +250,7 @@ for i in range(len(warehouse)):
             new_wide_line.append(part)
     wide_warehouse_list.append(new_wide_line)
 wide_warehouse = np.array(wide_warehouse_list)
+
 
 for i in commands:
     _, wide_warehouse = wide_move(wide_warehouse.copy(), i, list(np.where(wide_warehouse == "@")))
