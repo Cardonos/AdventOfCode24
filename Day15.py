@@ -1,7 +1,6 @@
 import numpy as np
 
 data = open("Inputs/Day15.txt").readlines()
-print(data)
 warehouse_list = []
 commands = []
 for line in data:
@@ -15,27 +14,6 @@ for line in data:
 
 warehouse = np.array(warehouse_list)
 dir_dict = {"^":(-1,0), ">":(0, 1), "v":(1, 0), "<":(0, -1)}
-
-
-def print_map(w_map: dict):
-    print()
-    for py in range(np.shape(w_map)[0]):
-        print_line = ''
-        for px in range(np.shape(w_map)[1]):
-            c = w_map[(py, px)]
-            if c == '#':
-                c = '⬜️'
-            elif c == '.':
-                c = '⬛'
-            elif c in 'O[':
-                c = '📦'
-            elif c == ']':
-                c = '🎁'
-            elif c == '@':
-                c = '🤖'
-            print_line += c
-        print(print_line)
-    print()
 
 
 def move(warehouse_map1 ,direction, current_loc, robot_or_box="@"):
@@ -254,6 +232,4 @@ wide_warehouse = np.array(wide_warehouse_list)
 
 for i in commands:
     _, wide_warehouse = wide_move(wide_warehouse.copy(), i, list(np.where(wide_warehouse == "@")))
-print_map(wide_warehouse)
-
-print(GPS(wide_warehouse, part2=True))
+print(f"Part 2: {GPS(wide_warehouse, part2=True)}")
